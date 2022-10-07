@@ -1,5 +1,6 @@
 # twitter-clone
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfE6ijmgDi4Lkf1J7_0p-yoD3joQJ-HbUaDA&usqp=CAU
+
+# https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfE6ijmgDi4Lkf1J7_0p-yoD3joQJ-HbUaDA&usqp=CAU
 # This project was bootstrapped with Create React App.
 
 ## Available Scripts
