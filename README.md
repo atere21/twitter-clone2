@@ -1,7 +1,6 @@
-![twitter](https://user-images.githubusercontent.com/106532533/194566176-55f91dd9-9969-4a3e-aac2-41a6c9e6f36e.jpg)
 # twitter-clone
+![tweet](https://user-images.githubusercontent.com/106532533/194566608-c8be1491-08e4-442d-a14a-20c095e2b323.png)
 
-# https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfE6ijmgDi4Lkf1J7_0p-yoD3joQJ-HbUaDA&usqp=CAU
 # This project was bootstrapped with Create React App.
 
 ## Available Scripts
