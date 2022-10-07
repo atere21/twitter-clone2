@@ -1,12 +1,16 @@
-
-import './App.css';
+import React from 'react'
+import Sidebar from './Sidebar'
+import './App.css'
 
 function App() {
   return (
     //BEM
     <div className="app">
-      <h1>hi</h1>
-      {/*sidebar*/}
+      
+
+      <Sidebar />
+
+
        {/*feed*/}
         {/*widgets*/}
     </div>
