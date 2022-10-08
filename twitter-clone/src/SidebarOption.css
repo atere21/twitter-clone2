@@ -1,7 +1,8 @@
 .SidebarOption{
     display: flex;
-    align-items: center;
+    align-items:center;
     cursor: pointer;
+    
     
 }
 .SidebarOption:hover{

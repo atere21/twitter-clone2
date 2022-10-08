@@ -4,9 +4,11 @@ body{
 }
 .app{
   display: flex;
-  height: 100vh;
+  height:min-content;
   min-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 10px;
+  margin-left: 50;
+  margin-right: 50px;
+  padding: 0px 10px;
+  
+  
 }
