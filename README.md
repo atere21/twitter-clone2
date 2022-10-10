@@ -1,4 +1,4 @@
-# Twitter-clone
+# Full-stack Twitter-clone
 ![tweet](https://user-images.githubusercontent.com/106532533/194566608-c8be1491-08e4-442d-a14a-20c095e2b323.png)
 # This project was bootstrapped with Create React App.
 
