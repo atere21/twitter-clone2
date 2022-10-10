@@ -11,12 +11,12 @@ import './Post.css'
 
 
 function Post({
-    displayName, username, verified, text, image, avatars
+    displayName, username, verified, text, image, avatar
 }) {
   return (
     <div className='post'>
         <div className='post__avatar'>
-            <Avatar src='https://pbs.twimg.com/profile_images/1356228586299142149/ZA8n5UNJ_400x400.jpg'></Avatar>
+            <Avatar src={avatar} />
         </div>
         <div className='post__body'>
             <div className='post__header'>
