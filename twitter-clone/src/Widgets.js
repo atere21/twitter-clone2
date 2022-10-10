@@ -13,12 +13,21 @@ function Widgets() {
         
         <div className='widgets__inputs'>
           <SearchIcon className='widgets__searchIcon' />
-          <input placeholder='search Twitter' type='text'/>
+          <input placeholder='Search Twitter' type='text'/>
         </div>
 
         <div className='widgets__widgetcontainer'>
-          <h2>What's happening</h2>
-          <TwitterTweetEmbed tweetId={"1564307731875520512"}></TwitterTweetEmbed>
+          <h2>Trends for you</h2>
+          <TwitterTweetEmbed tweetId={"1576167686551179264"}/>
+          <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="TiwaSavage"
+          options={{ height: 400 }}
+        />
+        <TwitterShareButton
+          url={"https://twitter.com/flourishgold212"}
+          options={{ text: "#reactjs is awesome", via: "flourishgold212" }}
+        />
 
         </div>
     </div>

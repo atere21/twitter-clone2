@@ -37,3 +37,15 @@
     margin-left: auto !important;
 
 }
+.star__Icon{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 30px;
+}
+.star__Icon:hover{
+    background-color: var(--twitter-background);
+    color: var(--twitter-color);
+    border-radius: 20px;
+    transition: 100ms;
+}
+

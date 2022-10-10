@@ -6,6 +6,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import TagIcon from '@mui/icons-material/Tag';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import ListAltIcon from '@mui/icons-material/ListAlt';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { Button } from '@mui/material'
@@ -23,6 +24,7 @@ function Sidebar() {
         <SidebarOption Icon={TagIcon} text="Explore" />
         <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
         <SidebarOption Icon={MailOutlineIcon} text="Messages" />
+        <SidebarOption Icon={ListAltIcon} text="Lists" />
         <SidebarOption Icon={PermIdentityIcon} text="Profile" />
         <SidebarOption Icon={MoreHorizIcon} text="More" />
 
