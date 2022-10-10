@@ -12,9 +12,14 @@ function Feed() {
         <h2>Home</h2>
         </div>
         <TweetBox />
-        <Post />
-        <Post />
-        <Post />
+        <Post 
+        displayName="FlourishGold"
+        username="flourishgold212"
+        verified={true}
+        text="this is my twitter-clone!!! Guess the tribe?"
+        avatar="https://pbs.twimg.com/profile_images/1356228586299142149/ZA8n5UNJ_400x400.jpg"
+        image="https://pbs.twimg.com/media/FepxIICX0AIiZwC?format=jpg&name=small"
+        />
         <Post />
         <Post />
         
