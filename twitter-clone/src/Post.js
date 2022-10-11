@@ -1,14 +1,11 @@
 import React from 'react'
+import './Post.css'
 import { Avatar } from '@mui/material'
 import VerifiedIcon from '@mui/icons-material/Verified';
 import MapsUgcRoundedIcon from '@mui/icons-material/MapsUgcRounded';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import LogoutIcon from '@mui/icons-material/Logout';
-
-import './Post.css'
-
-
 
 function Post({
     displayName, username, verified, text, image, avatar
@@ -21,17 +18,19 @@ function Post({
         <div className='post__body'>
             <div className='post__header'>
                 <div className='post__headerText'>
-                    <h3>Tiwa Savage<span className='post__headerSpecial'>
-                        <VerifiedIcon className='post__badge' /> @TiwaSavage </span>
+                    <h3>
+                        {displayName}{""}
+                        <span className='post__headerSpecial'>
+                        {verified && <VerifiedIcon className='post__badge' />} @{username} 
+                        </span>
                      </h3>
                 </div>
                 <div className='post__headerDescription'>
-                    <p>Can't get over the stunning pictures 🥰🥰🥰
-                    #TECNOxTiwaSavage </p>
+                    <p>{text}</p>
 
                 </div>
             </div>
-            <img src='https://pbs.twimg.com/media/Fc2rUjIXoAcH45J?format=jpg&name=small' alt='img' />
+            <img src= {image} alt="img" />
             <div className='post__footer'>
                 <MapsUgcRoundedIcon fontsize='small' />
                 <RepeatIcon fontsize='small' />

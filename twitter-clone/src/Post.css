@@ -7,8 +7,7 @@
 }
 .post__body >img{
     border-radius: 20px;
-    
-    
+       
 }
 
 .post__footer{
@@ -17,9 +16,10 @@
     margin-top: 10px;
 }
 .post__badge{
-    font-size: 14px;
+    font-size: 10px;
     color: var(--twitter-color);
-    border-bottom: 10px;
+    border-bottom: 20px;
+    
 }
 .post__headerSpecial{
     font-weight: 600;

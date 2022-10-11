@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import TweetBox from './TweetBox';
 import Post from './Post';
 import './Feed.css';
 
 
+
 function Feed() {
+  /*const [posts, setPosts] =useState([]);
+
+  useEffect(()=> {
+    db.collection('posts').onSnapshot (snapshot=> (
+      setPosts(snapshot.docs.map(doc=> doc.data()))
+    ))
+
+  },[])*/
   return (
     
         <div className='feed'>
