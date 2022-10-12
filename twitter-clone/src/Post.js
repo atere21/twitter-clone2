@@ -27,7 +27,6 @@ function Post({
                 </div>
                 <div className='post__headerDescription'>
                     <p>{text}</p>
-
                 </div>
             </div>
             <img src= {image} alt="img" />
