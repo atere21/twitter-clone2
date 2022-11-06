@@ -1,5 +1,6 @@
 .widgets{
     flex: 0.3;
+    padding-left: -30px;
 }
 .widgets__inputs{
     display: flex;
@@ -21,4 +22,5 @@
 .widgets__widgetContainer >h2{
     font-size: 18px;
     font-weight: 800;
+    padding-left: 30px;
 }

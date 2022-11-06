@@ -15,11 +15,13 @@
     justify-content: space-between;
     margin-top: 10px;
 }
-.post__badge{
-    font-size: 15px;
+/* .post__badge{
+    font-size: 7px;
+    color: var(--twitter-color); 
+} */
+.post__badge1{
     color: var(--twitter-color);
-    border-bottom: 20px;
-    
+    size: 5px;
 }
 .post__headerSpecial{
     font-weight: 600;

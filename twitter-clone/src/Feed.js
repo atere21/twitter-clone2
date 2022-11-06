@@ -22,14 +22,21 @@ function Feed() {
 
         <TweetBox />
         <Post 
-        displayName={posts.displayName}
-        username={Post.username}
+        displayName="Flourish Gold"
+        username="flourishgold212"
         verified={true}
-        text={posts.text}
-        avatar={posts.avatar}
-        image={Post.image}
+        text="This is my twitter clone and it's working!!"
+        avatar="https://twitter.com/flourishgold212/photo"
+        image="https://pbs.twimg.com/media/FgSzL--WQAAWjpD?format=jpg&name=360x360"
         />
-        
+        <Post 
+        displayName="Nicki Minaj"
+        username="Nickiminaj"
+        verified={true}
+        text="This is my twitter clone and it's working!!"
+        avatar="https://pbs.twimg.com/profile_images/1356228586299142149/ZA8n5UNJ_400x400.jpg"
+        image="https://pbs.twimg.com/media/FgSzL-8XkAACzoe?format=jpg&name=360x360"
+        />
         </div>
   );
 }
