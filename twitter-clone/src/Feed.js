@@ -39,7 +39,16 @@ function Feed() {
         avatar="https://pbs.twimg.com/profile_images/1356228586299142149/ZA8n5UNJ_400x400.jpg"
         image="https://pbs.twimg.com/media/FgSzL-8XkAACzoe?format=jpg&name=360x360"
         />
+         <Post 
+        displayName="Nicki Minaj"
+        username="Nickiminaj"
+        verified={true}
+        text="This is my twitter clone and it's working!!"
+        avatar="https://pbs.twimg.com/profile_images/1356228586299142149/ZA8n5UNJ_400x400.jpg"
+        image="https://pbs.twimg.com/media/FgSzL-8XkAACzoe?format=jpg&name=360x360"
+        />
         </div>
+        
   );
 }
 
