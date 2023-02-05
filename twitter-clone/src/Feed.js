@@ -3,9 +3,16 @@ import TweetBox from './TweetBox';
 import Post from './Post';
 import './Feed.css';
 
+import { getDatabase, useDatabaseEmulator } from "firebase/database";
 
 function Feed() {
+  const [posts, setPosts] = useState ([]);
 
+  // useEffect(() => {
+  //   db.collection('posts').onSnapshot((snapshot) => 
+  //     setPosts(snapshot.docs.map((doc) => doc.data()))
+  //   );
+  // }, []);
   return (
     
         <div className='feed'>
@@ -14,14 +21,16 @@ function Feed() {
         </div>
 
         <TweetBox />
+        {posts.map(post =>(
         <Post 
-        displayName="Flourish Gold"
-        username="flourishgold212"
-        verified={true}
-        text="This is my twitter clone and it's working!!"
-        avatar="https://twitter.com/flourishgold212/photo"
-        image="https://pbs.twimg.com/media/FgSzL--WQAAWjpD?format=jpg&name=360x360"
+        displayName={post.displayName}
+        username={post.username}
+        verified={post.verified}
+        text= {post.text}
+        avatar={post.avatar}
+        image={post.image}
         />
+           ))}
         <Post 
         displayName="Nicki Minaj"
         username="Nickiminaj"
